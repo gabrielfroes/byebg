@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.jpg\Shell\Remove Background]
+@="Remover Fundo"
+"Icon"="C:\\Program Files\\CDFTV\\byebg\\byebg.ico"
+"Extended"=-
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.jpg\Shell\Remove Background\command]
+@="\"C:\\Program Files\\CDFTV\\byebg\\byebg.exe\" \"%1\" \"%1_byebg.png\""
