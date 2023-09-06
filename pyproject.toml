@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "byebg"
+version = "0.1.0"
+description = "Remova o fundo das fotos automagicamente!"
+authors = ["gabrielfroes"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.12"
+rembg = "^2.0.50"
+Pillow = "^10.0.0"
+
+[tool.poetry.group.dev.dependencies]
+pyinstaller = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
