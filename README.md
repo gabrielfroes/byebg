@@ -12,8 +12,8 @@ _Remova o fundo de suas imagens JPG automagicamente._
 
 ### Pré-requisitos
 
-- Python 3.x
-- Pip
+- Python >=3.8,<3.12
+- Pip ou Poetry
 - PyInstaller (para compilação do executável)
 
 ### Passos
