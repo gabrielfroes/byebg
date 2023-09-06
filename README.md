@@ -16,7 +16,7 @@ _Remova o fundo de suas imagens JPG automagicamente._
 - Pip ou Poetry
 - PyInstaller (para compilação do executável)
 
-### Passos
+### Passos utilizando PIP
 
 1. Clone o repositório:
 
@@ -43,6 +43,30 @@ _Remova o fundo de suas imagens JPG automagicamente._
    pyinstaller --onefile --noconsole --icon=byebg.ico ./src/byebg.py
    ```
    Pode ser que você precise ajustar o caminho correto do ícone se quiser incorporá-lo no executável.
+
+### Passos Utilizando Poetry
+
+Certifique-se de ter o Poetry instalado ([tutorial oficial](https://python-poetry.org/docs/))
+
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/gabrielfroes/byebg.git
+   cd byebg
+   ```
+
+2. Crie um ambiente virtual e instale as dependências:
+
+   ```bash
+   poetry install
+   ```
+
+3. Compile o projeto (opcional):
+   ```bash
+   pyinstaller --onefile --noconsole --icon=byebg.ico ./src/byebg.py
+   ```
+   Pode ser que você precise ajustar o caminho correto do ícone se quiser incorporá-lo no executável.
+
 
 ### Instalação do menu de contexto
 
