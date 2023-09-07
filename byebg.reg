@@ -7,3 +7,59 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CLASSES_ROOT\SystemFileAssociations\.jpg\Shell\Remove Background\command]
 @="\"C:\\Program Files\\CDFTV\\byebg\\byebg.exe\" \"%1\" \"%1_byebg.png\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.jpeg\Shell\Remove Background]
+@="Remover Fundo"
+"Icon"="C:\\Program Files\\CDFTV\\byebg\\byebg.ico"
+"Extended"=-
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.jpeg\Shell\Remove Background\command]
+@="\"C:\\Program Files\\CDFTV\\byebg\\byebg.exe\" \"%1\" \"%1_byebg.png\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.png\Shell\Remove Background]
+@="Remover Fundo"
+"Icon"="C:\\Program Files\\CDFTV\\byebg\\byebg.ico"
+"Extended"=-
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.png\Shell\Remove Background\command]
+@="\"C:\\Program Files\\CDFTV\\byebg\\byebg.exe\" \"%1\" \"%1_byebg.png\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.gif\Shell\Remove Background]
+@="Remover Fundo"
+"Icon"="C:\\Program Files\\CDFTV\\byebg\\byebg.ico"
+"Extended"=-
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.gif\Shell\Remove Background\command]
+@="\"C:\\Program Files\\CDFTV\\byebg\\byebg.exe\" \"%1\" \"%1_byebg.png\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.bmp\Shell\Remove Background]
+@="Remover Fundo"
+"Icon"="C:\\Program Files\\CDFTV\\byebg\\byebg.ico"
+"Extended"=-
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.bmp\Shell\Remove Background\command]
+@="\"C:\\Program Files\\CDFTV\\byebg\\byebg.exe\" \"%1\" \"%1_byebg.png\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.tiff\Shell\Remove Background]
+@="Remover Fundo"
+"Icon"="C:\\Program Files\\CDFTV\\byebg\\byebg.ico"
+"Extended"=-
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.tiff\Shell\Remove Background\command]
+@="\"C:\\Program Files\\CDFTV\\byebg\\byebg.exe\" \"%1\" \"%1_byebg.png\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.ico\Shell\Remove Background]
+@="Remover Fundo"
+"Icon"="C:\\Program Files\\CDFTV\\byebg\\byebg.ico"
+"Extended"=-
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.ico\Shell\Remove Background\command]
+@="\"C:\\Program Files\\CDFTV\\byebg\\byebg.exe\" \"%1\" \"%1_byebg.png\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.webp\Shell\Remove Background]
+@="Remover Fundo"
+"Icon"="C:\\Program Files\\CDFTV\\byebg\\byebg.ico"
+"Extended"=-
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.webp\Shell\Remove Background\command]
+@="\"C:\\Program Files\\CDFTV\\byebg\\byebg.exe\" \"%1\" \"%1_byebg.png\""
