@@ -2,7 +2,9 @@ version: '3.8'
 
 services:
   byebg:
-    build: .
-    command: 'python ./src/byebg.py ./img/gabriel_vanessa.jpeg ./img/gabriel_vanessa_remove_bg.png'
+    build: 
+      context: .
+      target: base
+    command: 'python ./src/byebg.py ./img/gabriel_vanessa.jpg ./img/gabriel_vanessa_byebg.png'
     volumes:
       - './img:/opt/python/img'
