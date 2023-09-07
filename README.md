@@ -15,6 +15,7 @@ _Remova o fundo de suas imagens JPG automagicamente._
 - Python >=3.8,<3.12
 - Pip ou Poetry
 - PyInstaller (para compilação do executável)
+- Docker
 
 ### Passos utilizando PIP
 
@@ -25,17 +26,16 @@ _Remova o fundo de suas imagens JPG automagicamente._
    cd byebg
    ```
 
-2. Crie um ambiente virtual e ative-o:
+2. Construa e execute a image docker:
 
    ```bash
-   python -m venv .venv
-   source .venv/bin/activate  # No Windows use: .\.venv\Scripts\activate
+   docker compose up --build
    ```
 
-3. Instale as dependências:
+3. _Opcional_: Gerar executavel com Docker compose
 
    ```bash
-   pip install -r requirements.txt
+   docker compose -f docker-compose.pyinstaller.yaml up --build
    ```
 
 4. Compile o projeto (opcional):
@@ -72,8 +72,14 @@ Certifique-se de ter o Poetry instalado ([tutorial oficial](https://python-poetr
 
 Após compilar, se você quiser adicionar a opção no menu de contexto do Windows:
 
-1. Adapte o arquivo `.reg` para apontar para o local correto do seu executável.
-2. Execute o arquivo `.reg` como administrador.
+1. Adapte o arquivo .reg para apontar para o local correto do seu executável.
+2. Execute o arquivo .reg como administrador.
+
+### Docker branch
+
+Aos desenvolvedores que não tem o Python instalado e quiserem testar a funcionalide do byebg, podem testar utilizando o docker.
+
+> Para mais detalhes, visualize a [branch main](https://github.com/gabrielfroes/byebg/tree/main).
 
 ## 🎯 Como usar
 

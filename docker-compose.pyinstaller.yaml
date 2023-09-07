@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  byebg_compiler:
+    build: 
+      context: .
+      target: compiler
+    volumes:
+      - './dist:/opt/python/dist'
