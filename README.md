@@ -85,10 +85,27 @@ Aos desenvolvedores que não tem o Python instalado e quiserem testar a funciona
 
 ### Linha de Comando
 
+Pra utilizar um virtual env no python, segue um pequeno exemplo:
+```bash
+# Para criar o venv
+python -m venv byebg #Você pode trocar "byebg" para algum outro nome que você queira
+
+# Para sair
+deactivate
+
+#para entrar novamente no venv
+source byebg/bin/activate #Altere "byebg" para o nome que você criou o venv
+```
+
+Instale as dependências:
+```bash
+pip install -r requirements.txt
+```
+
 Execute o script ou o executável compilado passando a imagem de entrada e a saída desejada:
 
 ```bash
-python byebg.py input.jpg output.png
+python ./src/byebg.py input.jpg output.png
 ```
 
 ### Menu de Contexto
