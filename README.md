@@ -8,7 +8,7 @@ _Remova o fundo de suas imagens JPG automagicamente._
 
 `byebg` é uma ferramenta de linha de comando e também uma integração com o menu de contexto do Windows, permitindo que desenvolvedores e usuários removam o fundo de imagens JPG de forma automática.
 
-## 🚀 Instalação e Compilação
+## 🛠️ Instalação e Compilação
 
 ### Pré-requisitos
 
@@ -39,9 +39,15 @@ _Remova o fundo de suas imagens JPG automagicamente._
    ```
 
 4. Compile o projeto (opcional):
+
    ```bash
    pyinstaller --onefile --noconsole --icon=byebg.ico ./src/byebg.py
    ```
+
+   ```bash
+   pyinstaller byebg.spec
+   ```
+
    Pode ser que você precise ajustar o caminho correto do ícone se quiser incorporá-lo no executável.
 
 ### Passos Utilizando Poetry
@@ -62,11 +68,18 @@ Certifique-se de ter o Poetry instalado ([tutorial oficial](https://python-poetr
    ```
 
 3. Compile o projeto (opcional):
+
    ```bash
    pyinstaller --onefile --noconsole --icon=byebg.ico ./src/byebg.py
    ```
-   Pode ser que você precise ajustar o caminho correto do ícone se quiser incorporá-lo no executável.
 
+   ou
+
+   ```bash
+   pyinstaller byebg.spec
+   ```
+
+   Pode ser que você precise ajustar o caminho correto do ícone se quiser incorporá-lo no executável.
 
 ### Instalação do menu de contexto
 
@@ -101,6 +114,11 @@ Após instalar a integração com o menu de contexto:
 2. Clique com o botão direito na imagem.
 3. Selecione a opção "Remover Fundo".
 4. Uma nova imagem será gerada no mesmo diretório com o sufixo "\_byebg.png".
+
+## 🚀 Releases
+
+Agora, você pode utilizar o programa de forma ainda mais conveniente, apenas seguindo dois passos simples: baixando o executável e instalando o aplicativo.  
+Tudo o que você precisa fazer é visitar a nossa [página de releases](https://github.com/gabrielfroes/byebg/releases) e fazer o download da versão mais recente.
 
 ## 🤖 Contribuições
 
